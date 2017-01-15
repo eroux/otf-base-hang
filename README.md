@@ -15,7 +15,13 @@ See [proposed algorithm](proposed-algorithm.md).
 - [Tibetan fonts](tibetan-fonts.md) and their different ways to deal with the problem
 - [Baseline implementations](baseline-implementations.md)
 
-##### 
+##### Proposed algorithm
+- our [proposed algorithm](proposed-algorithm.md).
+
+## Other resources
+
+- [LibreOffice bug report](https://bugs.documentfoundation.org/show_bug.cgi?id=104930)
+- [NotoSans bug report](https://github.com/googlei18n/noto-fonts/issues/814)
 
 ## License
 
