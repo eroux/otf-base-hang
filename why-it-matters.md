@@ -16,7 +16,7 @@ This is currently impossible to reproduce on most application/font systems. An e
 
 See this picture of what NotoSans looks like with other scripts (the `x`s are here just to be able to see the latin baseline):
 
-![Different Scripts](/alignment-sripts.png)
+![Different Scripts](/alignment-scripts.png)
 
 In the first line, one would like to see Noto slightly higher in order to align with the top line of the Chinese ideographs, while on the second line the alignment looks OK.
 

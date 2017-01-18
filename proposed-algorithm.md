@@ -35,7 +35,7 @@ for each glyph in tibt script:
 
 In applications where the user can define paragraph properties, the LHB (as well as all other opentype baseline properties in our opinion) should be set by the user and should be a property of each line, or if not possible, of each paragraph.
 
-The reason behind this is that different documents will need different LHB for the same font at the same size. A document frequently mixing Tibetan with Latin script will want the LHB around the midline or caps height, while documents mixing Tibetan with Chinese ideograms may want the LHB around the top of the ideograms.
+The reason behind this is that different documents will need different LHB for the same font at the same size. A document frequently mixing Tibetan with Latin script will want the LHB around the midline or caps height, while documents mixing Tibetan with Chinese ideograms may want the LHB around the top of the ideograms (see [other parts of the doc](why-it-matters.md)).
 
 The default value for the LHB in such an application could be wild guessed around `0.5 em` of the default font size for a paragraph (a similar value is used in [NotoSansTibetan](https://www.google.com/get/noto/#sans-tibt)).
 
@@ -46,14 +46,17 @@ For applications (such as web browser or simple text editors) where user cannot 
 ```
 for each line:
 	LHB = undefined
+	guessedLHB = undefined
 	for each glyph:
 		let F(x,y) = font of glyph (sized y pt)
-		let a = 0.5
 		if glyph is tibetan script and x is defined:
-			a = x
-		b = a × y
-		if LHB is undefined or b > LHB:
-			LHB = b
+			if LHB is undefined or x × y > LHB:
+				LHB = x × y
+		else:
+			if guessedLHB is undefined or 0.5 × y > guessedLHB:
+				guessedLHB = 0.5 × y
+	if LHB is undefined:
+		LHB = guessedLHB
 ```
 
 which gives the LHB for each line (possibly a different one).
