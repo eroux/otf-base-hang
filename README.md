@@ -6,12 +6,12 @@ This repository aims at providing documentation and resources on the best way to
 
 See [proposed algorithm](proposed-algorithm.md).
 
-## Full documentation (TODO)
+## Full documentation
 
 ##### Introduction
 - [Why it matters?](why-it-matters.md), the current limitations of Tibetan display
 
-##### State of the Art
+##### State of the Art (TODO)
 - [Tibetan fonts](tibetan-fonts.md) and their different ways to deal with the problem
 - [Baseline implementations](baseline-implementations.md)
 
