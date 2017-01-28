@@ -2,9 +2,7 @@
 
 ### The BASE feature
 
-None of the fonts currently use the OpenType `BASE` feature. 
-
-It was sometimes reported ([for Noto](https://github.com/googlei18n/noto-fonts/issues/814)) or noted ().
+None of the fonts currently use the OpenType `BASE` feature (see [Noto bugreport](https://github.com/googlei18n/noto-fonts/issues/814)).
 
 ### How fonts deal with base line
 
@@ -18,7 +16,9 @@ This case shows the lack of consensus on the placement of the Tibetan hanging ba
 
 The first implementation deals with mixing Latin and Tibetan script better, but misaligns Tibetan if written at different font sizes, while the second correctly aligns Tibetan at different sizes, but is very bad when mixing Tibetan with other scripts (because Tibetan letter will be too low). This image compares the two version (first the Trace Foundation version then the PKTC version):
 
-![Different Scripts](/TMU.png)
+![Tibetan Machine Uni, Trace Foundation](/TMU.png)
+
+![Tibetan Machine Unicode, PKTC](/TMU2.png)
 
 ##### Other fonts
 
