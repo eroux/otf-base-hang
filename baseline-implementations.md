@@ -6,6 +6,8 @@ Adobe Products can vertically align characters in different fashions (see [align
 
 They also can also [apply local changes to the baseline](https://helpx.adobe.com/after-effects/using/formatting-characters-character-panel.html#text_scale_and_baseline_shift), although it does not mention base line others than the Latin base line.
 
+A message from 2012 in the OpenType list archive suggests that Adobe products use the 'ideo' baseline values if present.
+
 #### Other applications
 
 LibreOffice does not use the BASE feature (see [this bugreport](https://helpx.adobe.com/incopy/using/aligning-text.html#align_paragraphs_to_a_baseline_grid)).

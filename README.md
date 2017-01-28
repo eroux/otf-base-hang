@@ -1,6 +1,6 @@
 # Resources for application of the OpenType hang BASE feature for Tibetan
 
-This repository aims at providing documentation and resources on the best way to implement the OpenType `hang` Baseline ([MS Spec](https://www.microsoft.com/typography/otspec/baselinetags.htm), [MS Recomendations](https://www.microsoft.com/typography/otspec/recom.htm#base), [FEA Syntax](http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#9.a)). The documents mostly focus on the Tibetan script, by exposing expectations common to all Tibetic languages (Classical Tibetan, Dzongkha, etc.), but the ideas described here should apply directly to other hanging scripts such as Devanagari.
+This repository aims at providing documentation and resources on the best way to implement the OpenType `hang` Baseline ([MS Spec](https://www.microsoft.com/typography/otspec/baselinetags.htm), [MS Recomendations](https://www.microsoft.com/typography/otspec/recom.htm#base), [FEA Syntax](http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#9.a)). The documents mostly focus on the Tibetan script, by exposing expectations common to all Tibetic languages (Classical Tibetan, Dzongkha, etc.), but the ideas described here should apply directly to other hanging scripts such as Devanagari, Bengali or Gurmukhi.
 
 ## TL;DR
 
