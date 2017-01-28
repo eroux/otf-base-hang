@@ -33,7 +33,7 @@ for each glyph in tibt script:
 
 ##### User-defined determination (preferred)
 
-In applications where the user can define paragraph properties, the LHB (as well as all other opentype baseline properties in our opinion) should be set by the user and should be a property of each line, or if not possible, of each paragraph.
+In applications where the user can define paragraph properties, the LHB (as well as all other opentype baseline properties in our opinion) should be configurable by the user as a property of each character or line, paragraph, script, etc. according to the application.
 
 The reason behind this is that different documents will need different LHB for the same font at the same size. A document frequently mixing Tibetan with Latin script will want the LHB around the midline or caps height, while documents mixing Tibetan with Chinese ideograms may want the LHB around the top of the ideograms (see [other parts of the doc](why-it-matters.md)).
 
