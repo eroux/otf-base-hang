@@ -1,5 +1,7 @@
 # Why hanging baseline matters?
 
+(see also [this short intro](http://fontforge.github.io/en-US/tutorials/overview/#baselines) on the fontforge website)
+
 ## Alignment of different font sizes
 
 Many traditional Tibetan texts contain a feature called ཡིག་ཆུང། (litteraly "small writings") where some commentaries are inserted inside a text in a smaller size. These commentaries are aligned on the hanging baseline as on the following picture:

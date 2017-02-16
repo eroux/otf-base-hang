@@ -6,7 +6,7 @@ None of the fonts currently use the OpenType `BASE` feature (see [Noto bugreport
 
 ### How fonts deal with base line
 
-##### The case of Tibetan Machin Uni
+##### The case of Tibetan Machine Uni
 
 This case shows the lack of consensus on the placement of the Tibetan hanging baseline compared to the Latin baseline. The story goes like this:
 
