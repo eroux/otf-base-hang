@@ -20,14 +20,10 @@ See [proposed algorithm](proposed-algorithm.md).
 ##### Proposed algorithm
 - our [proposed algorithm](proposed-algorithm.md).
 
-## Other resources
-
-- [LibreOffice bug report](https://bugs.documentfoundation.org/show_bug.cgi?id=104930)
-- [NotoSans bug report](https://github.com/googlei18n/noto-fonts/issues/814)
-
 ## Support by font softwares
 
 - [Fontforge](https://fontforge.github.io/en-US/) [supports it](http://fontforge.github.io/en-US/documentation/interface/baseline/), and also generates a `bsln` table when the *Apple* option is set when generating a font having a `BASE` feature
+- [fonttools](https://github.com/fonttools/fonttools) supports it
 
 ## License
 
