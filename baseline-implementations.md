@@ -6,7 +6,7 @@ The [harfbuzz](https://www.freedesktop.org/wiki/Software/HarfBuzz/) does not yet
 
 #### Apple Products
 
-Apple is supposed to handle the BASE feature, as well as the (more or less) equivalent [AAT 'bsln'](https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bsln.html) table. It is supposed to have handled the 'hang' baseline since 1993, but as no font used it, the support has never been tested. Tests show that Apple support for the 'hang' `BASE` or `bsln` feature is broken, an issue has been reported (not publicly available).
+Apple has code to parse the BASE table, as well as the (more or less) equivalent [AAT 'bsln'](https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bsln.html) table. It is present since 1993 (for the bsln table), but has never been actually used by any application. There is no know plan for any application to use it.
 
 #### Microsoft Word
 
